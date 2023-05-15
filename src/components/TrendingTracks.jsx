@@ -4,7 +4,7 @@ import song1 from "../assets/song1.jpeg";
 import song2 from "../assets/song2.jpeg";
 import song3 from "../assets/song3.jpeg";
 
-const TrandingTracks = () => {
+const TrendingTracks = () => {
   return (
     <div className="tranding__tracks">
       <div className="trending__info">
@@ -59,4 +59,4 @@ const TrandingTracks = () => {
   );
 };
 
-export default TrandingTracks;
+export default TrendingTracks;
