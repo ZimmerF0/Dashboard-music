@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import DailyMetric from "./DailyMetric";
 import MusicMetric from "./MusicMetric";
+import TrandingTracks from "./TrandingTracks";
 
 const Metrics = () => {
   return (
@@ -11,7 +12,9 @@ const Metrics = () => {
         <DailyMetric />
         <MusicMetric />
       </div>
-      <div className="grid__two"></div>
+      <div className="grid__two">
+        <TrandingTracks />
+      </div>
     </div>
   );
 };
