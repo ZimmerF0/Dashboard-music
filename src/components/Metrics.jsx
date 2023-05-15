@@ -17,7 +17,7 @@ const Metrics = () => {
       <div className="grid__two">
         <TrendingTracks />
         <TrendingUsers />
-        <UsersActivity /> 
+        <UsersActivity />
       </div>
     </div>
   );

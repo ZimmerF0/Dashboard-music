@@ -3,10 +3,12 @@ import SideBar from "./components/SideBar";
 import "./scss/index.scss";
 
 function App() {
-  return <div className="dashboard">
-    <SideBar />
-    <Metrics />
-  </div>;
+  return (
+    <div className="dashboard">
+      <SideBar />
+      <Metrics />
+    </div>
+  );
 }
 
 export default App;
