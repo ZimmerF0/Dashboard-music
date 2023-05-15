@@ -15,6 +15,7 @@
     .top__card {
       @include getCardStyles;
     }
+    @include getMonthlyFollowersStyles;
   }
   .grid__two {
     display: grid;
