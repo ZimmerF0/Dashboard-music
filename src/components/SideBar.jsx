@@ -17,27 +17,27 @@ function SideBar() {
           <ul>
             <li>
               <IoStatsChartSharp />
-              <a href="#">Overview</a>
+              <a href="/#">Overview</a>
             </li>
             <li>
               <SiDatacamp />
-              <a href="#">A&R Data</a>
+              <a href="/#">A&R Data</a>
             </li>
             <li>
               <Si1001Tracklists />
-              <a href="#">Challenges</a>
+              <a href="/#">Challenges</a>
             </li>
             <li>
               <HiMusicNote />
-              <a href="#">Songs</a>
+              <a href="/#">Songs</a>
             </li>
             <li>
               <FiUsers />
-              <a href="#">Users</a>
+              <a href="/#">Users</a>
             </li>
             <li>
               <FiSettings />
-              <a href="#">Settings</a>
+              <a href="/#">Settings</a>
             </li>
           </ul>
         </div>
