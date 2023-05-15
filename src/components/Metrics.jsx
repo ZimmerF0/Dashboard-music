@@ -4,6 +4,7 @@ import DailyMetric from "./DailyMetric";
 import MusicMetric from "./MusicMetric";
 import TrendingTracks from "./TrendingTracks";
 import TrendingUsers from "./TrendingUsers";
+import UsersActivity from "./UsersActivity";
 
 const Metrics = () => {
   return (
@@ -16,6 +17,7 @@ const Metrics = () => {
       <div className="grid__two">
         <TrendingTracks />
         <TrendingUsers />
+        <UsersActivity /> 
       </div>
     </div>
   );
